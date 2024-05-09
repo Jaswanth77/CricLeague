@@ -1,0 +1,184 @@
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    font-family: 'Josefin-sans',sans-serif;
+}
+
+.hero{
+    height : 100vh;
+    width : 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(auction.jpg);
+    background-size :cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-img{
+    height :40px ;
+    width : 40px ;
+}
+
+nav{
+    display:flex ;
+    align-content: center;
+    justify-content:space-between ;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    color:white;
+    font-size: 28px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color : #96bfef;
+    transition: .3s;
+}
+
+ .points{
+    background-color: #1da1f2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: .7;
+}
+
+.notice{
+    font-weight: 200;
+    font-size: 100px;
+}
+
+.btn {
+    background-color: #33cccf;
+    border: none;
+    color: rgb(224, 61, 61);
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  
+.btn:hover {
+    background-color: #29c7e7;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+  
+form {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #f1abab;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus,
+  textarea:focus {
+    border-color: #15cdcd;
+  }
+  
+  input[type="submit"] {
+    background-color: #43e6db;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #19c4ca;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+.abu-image{
+    background-image: url(abu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.para
+{
+    font-size: 30px;
+    font-family:monospace;
+    font-weight: 200;
+    background-color: #96bfef;
+}
+
+.admin{
+  height : 100vh;
+  width : 100%;
+  background-image: linear-gradient(rgba(244, 240, 240, 0.978),rgba(54, 53, 53, 0.6)),url(trophyimg.jpg);
+  background-size :cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
